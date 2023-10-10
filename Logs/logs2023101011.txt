@@ -1,0 +1,480 @@
+2023-10-10 11:04:30.910 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:04:31.157 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:04:31.158 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:04:31.163 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:04:31.164 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:04:31.165 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:04:31.701 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:04:32.117 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:04:32.117 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:04:32.122 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 423.3177ms
+2023-10-10 11:04:32.141 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 23.2129ms
+2023-10-10 11:04:32.165 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.9907ms
+2023-10-10 11:04:32.303 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:04:32.373 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BankSystem_API.Controllers.UserController.IsStrongPassword (BankSystem_API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:04:32.424 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 120.4445ms
+2023-10-10 11:11:09.293 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:11:09.498 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:11:09.499 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:11:09.504 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:11:09.505 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:11:09.505 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:11:10.314 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:11:10.751 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 439.3612ms
+2023-10-10 11:11:10.760 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:11:10.765 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:11:10.780 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 15.0367ms
+2023-10-10 11:11:10.797 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 36.4182ms
+2023-10-10 11:11:10.862 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:11:10.954 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BankSystem_API.Controllers.UserController.IsStrongPassword (BankSystem_API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:11:11.025 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 162.5176ms
+2023-10-10 11:11:38.117 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:11:38.326 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:11:38.327 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:11:38.332 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:11:38.333 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:11:38.333 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:11:38.969 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:11:39.337 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 369.7348ms
+2023-10-10 11:11:39.349 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:11:39.349 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:11:39.360 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 10.7217ms
+2023-10-10 11:11:39.375 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.7549ms
+2023-10-10 11:11:39.468 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:11:39.570 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BankSystem_API.Controllers.UserController.IsStrongPassword (BankSystem_API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:11:39.619 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 151.7442ms
+2023-10-10 11:13:22.859 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:13:23.092 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:13:23.092 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:13:23.097 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:13:23.098 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:13:23.099 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:13:23.778 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:13:24.174 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 393.3854ms
+2023-10-10 11:13:24.176 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:13:24.176 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:13:24.200 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 23.5573ms
+2023-10-10 11:13:24.213 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.0284ms
+2023-10-10 11:13:24.285 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:13:24.362 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BankSystem_API.Controllers.UserController.IsStrongPassword (BankSystem_API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:13:24.422 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 136.3698ms
+2023-10-10 11:13:43.198 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:13:43.430 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:13:43.431 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:13:43.435 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:13:43.436 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:13:43.437 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:13:43.860 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:13:44.276 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 413.3079ms
+2023-10-10 11:13:44.291 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:13:44.291 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:13:44.298 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 6.8521ms
+2023-10-10 11:13:44.316 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.8472ms
+2023-10-10 11:13:44.399 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:13:44.462 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - BankSystem_API.Controllers.UserController.IsStrongPassword (BankSystem_API). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:13:44.519 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 118.9938ms
+2023-10-10 11:14:39.747 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:14:39.963 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:14:39.964 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:14:39.969 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:14:39.970 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:14:39.970 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:14:40.603 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:14:40.992 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:14:40.992 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:14:41.024 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 30.5368ms
+2023-10-10 11:14:41.025 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 426.6866ms
+2023-10-10 11:14:41.044 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 52.4577ms
+2023-10-10 11:14:41.120 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:14:41.281 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 161.2273ms
+2023-10-10 11:18:57.833 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:18:58.084 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:18:58.085 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:18:58.091 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:18:58.092 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:18:58.092 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:18:58.593 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:18:59.010 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 419.8914ms
+2023-10-10 11:18:59.017 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:18:59.017 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:18:59.046 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 28.1293ms
+2023-10-10 11:18:59.062 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.9791ms
+2023-10-10 11:18:59.168 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:18:59.275 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.6910ms
+2023-10-10 11:19:24.322 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/api/User/view exchange rate - -
+2023-10-10 11:19:24.699 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.ViewExchangeRates (BankSystem_API)'
+2023-10-10 11:19:24.746 +04:00 [INF] Route matched with {action = "ViewExchangeRates", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task ViewExchangeRates() on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:19:26.411 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.ViewExchangeRates (BankSystem_API) in 1656.7311ms
+2023-10-10 11:19:26.420 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.ViewExchangeRates (BankSystem_API)'
+2023-10-10 11:19:26.426 +04:00 [INF] HTTP GET /api/User/view exchange rate responded 200 in 2092.7014 ms
+2023-10-10 11:19:26.432 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/api/User/view exchange rate - - - 200 0 - 2110.1972ms
+2023-10-10 11:20:35.837 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ADU&amount=50 - -
+2023-10-10 11:20:35.842 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:20:35.869 +04:00 [INF] Route matched with {action = "CurrencyConverter", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CurrencyConverter(System.String, System.String, Int32) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:20:36.187 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-10-10 11:20:36.191 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API) in 319.6796ms
+2023-10-10 11:20:36.193 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:20:36.195 +04:00 [INF] HTTP GET /api/User/curencyconverter responded 400 in 352.5162 ms
+2023-10-10 11:20:36.196 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ADU&amount=50 - - - 400 - text/plain;+charset=utf-8 361.3979ms
+2023-10-10 11:20:54.804 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ERU&amount=50 - -
+2023-10-10 11:20:54.807 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:20:54.809 +04:00 [INF] Route matched with {action = "CurrencyConverter", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CurrencyConverter(System.String, System.String, Int32) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:20:55.340 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-10-10 11:20:55.342 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API) in 529.9294ms
+2023-10-10 11:20:55.344 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:20:55.344 +04:00 [INF] HTTP GET /api/User/curencyconverter responded 400 in 538.7109 ms
+2023-10-10 11:20:55.345 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ERU&amount=50 - - - 400 - text/plain;+charset=utf-8 540.5228ms
+2023-10-10 11:21:50.714 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ZWL&amount=50 - -
+2023-10-10 11:21:50.718 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:21:50.719 +04:00 [INF] Route matched with {action = "CurrencyConverter", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CurrencyConverter(System.String, System.String, Int32) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:21:50.977 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:21:50.982 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API) in 261.355ms
+2023-10-10 11:21:50.986 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.CurrencyConverter (BankSystem_API)'
+2023-10-10 11:21:50.987 +04:00 [INF] HTTP GET /api/User/curencyconverter responded 200 in 268.8245 ms
+2023-10-10 11:21:50.988 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/api/User/curencyconverter?fromCurrency=OMR&toCurrency=ZWL&amount=50 - - - 200 - text/plain;+charset=utf-8 274.0259ms
+2023-10-10 11:23:37.180 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/User/RegisterUser?name=ALU&email=ALU%40GMAIL.COM&password=ALUali120%40 - 0
+2023-10-10 11:23:37.183 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.RegisterUser (BankSystem_API)'
+2023-10-10 11:23:37.187 +04:00 [INF] Route matched with {action = "RegisterUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RegisterUser(System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:23:38.379 +04:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'Account'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-10 11:23:38.380 +04:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-10 11:23:40.947 +04:00 [INF] Executed DbCommand (229ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [Name], [Password])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2);
+2023-10-10 11:23:41.032 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:23:41.033 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.RegisterUser (BankSystem_API) in 3844.6894ms
+2023-10-10 11:23:41.036 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.RegisterUser (BankSystem_API)'
+2023-10-10 11:23:41.037 +04:00 [INF] HTTP POST /api/User/RegisterUser responded 200 in 3854.0625 ms
+2023-10-10 11:23:41.066 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/User/RegisterUser?name=ALU&email=ALU%40GMAIL.COM&password=ALUali120%40 - 0 - 200 - text/plain;+charset=utf-8 3886.3581ms
+2023-10-10 11:29:01.803 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:29:01.858 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 56.0806ms
+2023-10-10 11:29:01.875 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:29:01.876 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:29:01.889 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 13.2596ms
+2023-10-10 11:29:01.902 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.0368ms
+2023-10-10 11:29:02.322 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:29:02.328 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.8334ms
+2023-10-10 11:30:22.849 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/api/User/GetUserId?email=ALU%40GMAIL.COM&password=ALUali120%40 - -
+2023-10-10 11:30:22.925 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.GetuserId (BankSystem_API)'
+2023-10-10 11:30:22.938 +04:00 [INF] Route matched with {action = "GetuserId", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetuserId(System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:30:24.323 +04:00 [INF] Executed DbCommand (60ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:30:24.356 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.Int32'.
+2023-10-10 11:30:24.395 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.GetuserId (BankSystem_API) in 1452.1985ms
+2023-10-10 11:30:24.401 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.GetuserId (BankSystem_API)'
+2023-10-10 11:30:24.407 +04:00 [INF] HTTP GET /api/User/GetUserId responded 200 in 1482.3712 ms
+2023-10-10 11:30:24.412 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/api/User/GetUserId?email=ALU%40GMAIL.COM&password=ALUali120%40 - - - 200 - application/json;+charset=utf-8 1564.5410ms
+2023-10-10 11:31:25.713 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ahmedhu%40gmail.com&password=ahmedhu120%40 - 0
+2023-10-10 11:31:25.725 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.UpdatePatron (BankSystem_API)'
+2023-10-10 11:31:25.732 +04:00 [INF] Route matched with {action = "UpdatePatron", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdatePatron(Int32, System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:31:25.825 +04:00 [INF] Executed DbCommand (57ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__ID_0
+2023-10-10 11:31:25.904 +04:00 [INF] Executed DbCommand (34ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Name] = @p1, [Password] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-10-10 11:31:25.920 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:31:25.925 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.UpdatePatron (BankSystem_API) in 188.3822ms
+2023-10-10 11:31:25.938 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.UpdatePatron (BankSystem_API)'
+2023-10-10 11:31:25.950 +04:00 [INF] HTTP PUT /api/User/UpdateUser responded 200 in 225.3731 ms
+2023-10-10 11:31:25.951 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ahmedhu%40gmail.com&password=ahmedhu120%40 - 0 - 200 - text/plain;+charset=utf-8 238.0349ms
+2023-10-10 11:32:11.083 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:32:11.121 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 37.6854ms
+2023-10-10 11:32:11.133 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:32:11.133 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:32:11.135 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 2.4400ms
+2023-10-10 11:32:11.154 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.2554ms
+2023-10-10 11:32:11.597 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:32:11.602 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.6862ms
+2023-10-10 11:32:46.093 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40gmail.com&password=ahmedhu120%40 - 0
+2023-10-10 11:32:46.120 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:32:46.153 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:32:46.211 +04:00 [INF] Executed DbCommand (20ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:32:46.226 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-10-10 11:32:46.235 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 67.5344ms
+2023-10-10 11:32:46.242 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:32:46.245 +04:00 [INF] HTTP POST /api/Account/login responded 401 in 126.5648 ms
+2023-10-10 11:32:46.248 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40gmail.com&password=ahmedhu120%40 - 0 - 401 - text/plain;+charset=utf-8 154.6543ms
+2023-10-10 11:38:43.149 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40gmail.com&password=ALUali120%40 - 0
+2023-10-10 11:38:43.168 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:38:43.170 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:38:43.197 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:38:43.199 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-10-10 11:38:43.200 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 27.2468ms
+2023-10-10 11:38:43.202 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:38:43.203 +04:00 [INF] HTTP POST /api/Account/login responded 401 in 35.4725 ms
+2023-10-10 11:38:43.205 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40gmail.com&password=ALUali120%40 - 0 - 401 - text/plain;+charset=utf-8 55.8425ms
+2023-10-10 11:39:42.055 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40&password=ALUali120%40 - 0
+2023-10-10 11:39:42.061 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:39:42.068 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:39:42.076 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:39:42.078 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-10-10 11:39:42.079 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 9.5923ms
+2023-10-10 11:39:42.081 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:39:42.081 +04:00 [INF] HTTP POST /api/Account/login responded 401 in 20.5914 ms
+2023-10-10 11:39:42.083 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=ahmedhu%40&password=ALUali120%40 - 0 - 401 - text/plain;+charset=utf-8 27.3817ms
+2023-10-10 11:40:29.872 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=AhmedHumaid%40123&password=Humaid%40123 - 0
+2023-10-10 11:40:29.883 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:40:29.890 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:40:29.937 +04:00 [INF] Executed DbCommand (5ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:40:30.306 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:40:30.310 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 380.34ms
+2023-10-10 11:40:30.311 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:40:30.312 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 430.1030 ms
+2023-10-10 11:40:30.314 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=AhmedHumaid%40123&password=Humaid%40123 - 0 - 200 - text/plain;+charset=utf-8 441.7671ms
+2023-10-10 11:43:31.608 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:43:31.634 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 25.8684ms
+2023-10-10 11:43:31.654 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:43:31.655 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:43:31.657 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 2.3953ms
+2023-10-10 11:43:31.673 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.6579ms
+2023-10-10 11:43:32.033 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:43:32.060 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/User/UpdateUser" for actions - BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API),BankSystem_API.Controllers.UserController.UpdatePatron (BankSystem_API),BankSystem_API.Controllers.UserController.UpdatePatron (BankSystem_API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-10-10 11:43:32.179 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 500 - text/plain;+charset=utf-8 145.9980ms
+2023-10-10 11:44:15.690 +04:00 [INF] User profile is available. Using 'C:\Users\TRA\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-10-10 11:44:16.071 +04:00 [INF] Now listening on: https://localhost:7088
+2023-10-10 11:44:16.071 +04:00 [INF] Now listening on: http://localhost:5041
+2023-10-10 11:44:16.078 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-10-10 11:44:16.080 +04:00 [INF] Hosting environment: Development
+2023-10-10 11:44:16.080 +04:00 [INF] Content root path: C:\Users\TRA\Desktop\TRA-Code\BankSystem_API\
+2023-10-10 11:44:16.900 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:44:17.482 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:44:17.482 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:44:17.492 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 595.7523ms
+2023-10-10 11:44:17.516 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 34.7714ms
+2023-10-10 11:44:17.536 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 54.4968ms
+2023-10-10 11:44:18.211 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:44:18.433 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 221.9199ms
+2023-10-10 11:45:39.974 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALU%40gmail.com&password=ALUali120%40 - 0
+2023-10-10 11:45:40.225 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:45:40.347 +04:00 [INF] Route matched with {action = "UpdateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateUser(Int32, System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:45:43.182 +04:00 [WRN] No store type was specified for the decimal property 'Balance' on entity type 'Account'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-10 11:45:43.185 +04:00 [WRN] No store type was specified for the decimal property 'Amount' on entity type 'Transaction'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-10-10 11:45:46.362 +04:00 [INF] Executed DbCommand (203ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__ID_0
+2023-10-10 11:45:46.891 +04:00 [INF] Executed DbCommand (13ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Name] = @p1, [Password] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-10-10 11:45:46.922 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:45:46.937 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API) in 6573.4066ms
+2023-10-10 11:45:46.942 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:45:46.949 +04:00 [INF] HTTP PUT /api/User/UpdateUser responded 200 in 6953.7396 ms
+2023-10-10 11:45:46.979 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALU%40gmail.com&password=ALUali120%40 - 0 - 200 - text/plain;+charset=utf-8 7004.8023ms
+2023-10-10 11:46:26.629 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=ALU%40gmail.com&password=ALUali120%40 - 0
+2023-10-10 11:46:26.640 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:46:26.649 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:46:26.771 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:46:26.779 +04:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2023-10-10 11:46:26.783 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 117.259ms
+2023-10-10 11:46:26.786 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:46:26.787 +04:00 [INF] HTTP POST /api/Account/login responded 401 in 148.1895 ms
+2023-10-10 11:46:26.789 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=ALU%40gmail.com&password=ALUali120%40 - 0 - 401 - text/plain;+charset=utf-8 160.4479ms
+2023-10-10 11:48:47.745 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALUali10%40&password=ALUali120%40 - 0
+2023-10-10 11:48:47.769 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:48:47.771 +04:00 [INF] Route matched with {action = "UpdateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateUser(Int32, System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:48:47.913 +04:00 [INF] Executed DbCommand (14ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__ID_0
+2023-10-10 11:48:47.933 +04:00 [INF] Executed DbCommand (12ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Name] = @p1, [Password] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-10-10 11:48:47.937 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:48:47.938 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API) in 163.0927ms
+2023-10-10 11:48:47.940 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:48:47.941 +04:00 [INF] HTTP PUT /api/User/UpdateUser responded 200 in 177.4179 ms
+2023-10-10 11:48:47.943 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALUali10%40&password=ALUali120%40 - 0 - 200 - text/plain;+charset=utf-8 197.8041ms
+2023-10-10 11:49:07.575 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALUali10%40gmail.com&password=ALUali120%40 - 0
+2023-10-10 11:49:07.586 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:49:07.588 +04:00 [INF] Route matched with {action = "UpdateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateUser(Int32, System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:49:07.632 +04:00 [INF] Executed DbCommand (38ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__ID_0
+2023-10-10 11:49:07.641 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Name] = @p1, [Password] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-10-10 11:49:07.644 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:49:07.645 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API) in 52.8616ms
+2023-10-10 11:49:07.646 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:49:07.647 +04:00 [INF] HTTP PUT /api/User/UpdateUser responded 200 in 60.6257 ms
+2023-10-10 11:49:07.648 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=Ahmedhu&Email=ALUali10%40gmail.com&password=ALUali120%40 - 0 - 200 - text/plain;+charset=utf-8 76.2071ms
+2023-10-10 11:49:41.692 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=ALUali120%40&password=ALUali120%40 - 0
+2023-10-10 11:49:41.707 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:49:41.708 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:49:41.719 +04:00 [INF] Executed DbCommand (7ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:49:42.145 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:49:42.152 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 441.2539ms
+2023-10-10 11:49:42.155 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:49:42.156 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 449.5716 ms
+2023-10-10 11:49:42.157 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=ALUali120%40&password=ALUali120%40 - 0 - 200 - text/plain;+charset=utf-8 465.5943ms
+2023-10-10 11:50:29.896 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - -
+2023-10-10 11:50:29.940 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - - - 200 - text/html;charset=utf-8 44.3317ms
+2023-10-10 11:50:29.947 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - -
+2023-10-10 11:50:29.947 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - -
+2023-10-10 11:50:29.948 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 1.4002ms
+2023-10-10 11:50:29.958 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 10.6699ms
+2023-10-10 11:50:30.155 +04:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - -
+2023-10-10 11:50:30.161 +04:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.2305ms
+2023-10-10 11:51:43.593 +04:00 [INF] Request starting HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=MUHAMMED&Email=muhammed%40gmail.com&password=muhammedAL120%40 - 0
+2023-10-10 11:51:43.605 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:51:43.620 +04:00 [INF] Route matched with {action = "UpdateUser", controller = "User"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult UpdateUser(Int32, System.String, System.String, System.String) on controller BankSystem_API.Controllers.UserController (BankSystem_API).
+2023-10-10 11:51:43.657 +04:00 [INF] Executed DbCommand (4ms) [Parameters=[@__ID_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Id] = @__ID_0
+2023-10-10 11:51:43.673 +04:00 [INF] Executed DbCommand (8ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Users] SET [Email] = @p0, [Name] = @p1, [Password] = @p2
+OUTPUT 1
+WHERE [Id] = @p3;
+2023-10-10 11:51:43.680 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:51:43.682 +04:00 [INF] Executed action BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API) in 53.2706ms
+2023-10-10 11:51:43.683 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.UserController.UpdateUser (BankSystem_API)'
+2023-10-10 11:51:43.684 +04:00 [INF] HTTP PUT /api/User/UpdateUser responded 200 in 79.5750 ms
+2023-10-10 11:51:43.685 +04:00 [INF] Request finished HTTP/2 PUT https://localhost:7088/api/User/UpdateUser?ID=3&Name=MUHAMMED&Email=muhammed%40gmail.com&password=muhammedAL120%40 - 0 - 200 - text/plain;+charset=utf-8 92.2134ms
+2023-10-10 11:52:25.557 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/login?email=muhammed%40gmail.com&password=muhammedAL120%40 - 0
+2023-10-10 11:52:25.578 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:52:25.584 +04:00 [INF] Route matched with {action = "post", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult post(System.String, System.String) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:52:25.599 +04:00 [INF] Executed DbCommand (6ms) [Parameters=[@__email_0='?' (Size = 4000), @__password_1='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password]
+FROM [Users] AS [u]
+WHERE [u].[Email] = @__email_0 AND [u].[Password] = @__password_1
+2023-10-10 11:52:25.606 +04:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2023-10-10 11:52:25.608 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.post (BankSystem_API) in 20.5732ms
+2023-10-10 11:52:25.609 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.post (BankSystem_API)'
+2023-10-10 11:52:25.610 +04:00 [INF] HTTP POST /api/Account/login responded 200 in 32.1890 ms
+2023-10-10 11:52:25.611 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/login?email=muhammed%40gmail.com&password=muhammedAL120%40 - 0 - 200 - text/plain;+charset=utf-8 54.7243ms
+2023-10-10 11:52:57.324 +04:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/Account/CreatAccount?initialBalance=300 - 0
+2023-10-10 11:52:57.341 +04:00 [INF] Executing endpoint 'BankSystem_API.Controllers.AccountController.CreateAccount (BankSystem_API)'
+2023-10-10 11:52:57.352 +04:00 [INF] Route matched with {action = "CreateAccount", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CreateAccount(System.Decimal) on controller BankSystem_API.Controllers.AccountController (BankSystem_API).
+2023-10-10 11:52:57.617 +04:00 [INF] Executed DbCommand (39ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Precision = 18) (Scale = 2) (DbType = Decimal), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Accounts] ([AccountHolderName], [Balance], [Id])
+OUTPUT INSERTED.[AccountNumber]
+VALUES (@p0, @p1, @p2);
+2023-10-10 11:52:57.762 +04:00 [ERR] An exception occurred in the database while saving changes for context type 'BankSystem_API.ApplicationDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'AccountHolderName', table 'BS_Using_EF_Core.dbo.Accounts'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:8728b68a-9352-42a9-bd0b-6aa0c6daf54d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'AccountHolderName', table 'BS_Using_EF_Core.dbo.Accounts'; column does not allow nulls. INSERT fails.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.Read()
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSet(Int32 startCommandIndex, RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+ClientConnectionId:8728b68a-9352-42a9-bd0b-6aa0c6daf54d
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.Consume(RelationalDataReader reader)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+2023-10-10 11:52:57.990 +04:00 [INF] Executing BadRequestObjectResult, writing value of type 'System.String'.
+2023-10-10 11:52:57.992 +04:00 [INF] Executed action BankSystem_API.Controllers.AccountController.CreateAccount (BankSystem_API) in 638.0391ms
+2023-10-10 11:52:57.994 +04:00 [INF] Executed endpoint 'BankSystem_API.Controllers.AccountController.CreateAccount (BankSystem_API)'
+2023-10-10 11:52:57.996 +04:00 [INF] HTTP POST /api/Account/CreatAccount responded 400 in 655.8903 ms
+2023-10-10 11:52:57.998 +04:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/Account/CreatAccount?initialBalance=300 - 0 - 400 - text/plain;+charset=utf-8 673.7766ms
